@@ -1,0 +1,69 @@
+.root {
+    /*-fx-background-color: rgba(0,0,0,1);*/
+    -fx-background-color: rgba(0, 0, 0, 1);
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 25;
+    -fx-font-family: "Times New Roman";
+}
+
+.table-row-cell:empty {
+    -fx-background-color: lightyellow;
+}
+
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}
+
+.table-view{
+    -fx-background-color: linear-gradient(red, yellow);
+}
+
+.button {
+    -fx-background-color: linear-gradient(#dddddd, #999999);
+    -fx-padding: 5, 5, 5, 5;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.scroll-pane {
+    -fx-background-color: rgba(0, 0, 0, 1);
+}
+
+.scroll-bar:horizontal {
+    -fx-background-color: linear-gradient(to bottom, #000000, #a0a0a0);
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar:horizontal .track {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: linear-gradient(to right, #000000, #a0a0a0);
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar:vertical .track {
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: linear-gradient(to top, #000000, #aaaaaa);
+    -fx-border-color: white;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5px;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: linear-gradient(to left, #000000, #aaaaaa);
+    -fx-border-color: white;
+    -fx-border-width: 0.5;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5px;
+}
